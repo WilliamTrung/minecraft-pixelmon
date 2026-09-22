@@ -9,6 +9,7 @@ services:
       MEMORY: "6G"
     ports:
       - "25565:25565"
+      - "127.0.0.1:25575:25575"
     volumes:
       - ./data:/data
       - ./neoforge-21.1.200-installer.jar:/opt/install/neoforge-installer.jar:ro
