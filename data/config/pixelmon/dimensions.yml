@@ -1,0 +1,35 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether the Ultra Space Dimension is activated or not.
+ultra-space: true
+# Where the Berry Trees are capable of spawning in the wild.
+wild-berry-trees: false
+# The chance that a tumblestone block will spawn in the world.
+tumblestone-spawn-chance: 0.009999999776482582
+# The chance that a tumblestone block will grow.
+tumblestone-growth-chance: 0.10000000149011612
+# The chance that a tumblestone block will restore itself.
+tumblestone-restore-chance: 0.25
+# List of fossils considered 'common' for regular fossil blocks.
+# Valid values: helix, dome, old_amber, root, claw, skull, armor,
+# cover, plume, jaw, sail, bird, dino, drake, fish
+common-fossils:
+- helix
+- dome
+- old_amber
+- root
+- claw
+# List of fossils considered 'rare' for deepslate fossil blocks.
+# Valid values: Same as commonFossils
+rare-fossils:
+- skull
+- armor
+- cover
+- plume
+- jaw
+- sail
+- bird
+- dino
+- drake
+- fish

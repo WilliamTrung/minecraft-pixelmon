@@ -1,0 +1,7 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+allow-t-m-reuse: true
+allow-t-r-reuse: false
+universal-t-ms: true
+super-universal-t-ms: false

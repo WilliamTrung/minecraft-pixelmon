@@ -1,0 +1,9 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether the command will check an offline player's Pokemon.
+pokesee-allow-offline-check: true
+# Whether /ivs will work on eggs.
+check-egg-ivs: true
+# If enabled, random Pokémon spawned from /pokegive or from any pokespec have the possibility of containing Legendary Pokémon.
+allow-random-pokemon-to-be-legendary: true

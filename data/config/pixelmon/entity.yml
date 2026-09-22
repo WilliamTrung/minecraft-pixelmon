@@ -1,0 +1,25 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not regular Minecraft mobs like cows and zombies can spawn naturally. DANGER - can kill you while battling.
+#  Monster spawners containing zombies, skeletons, or spiders will be converted into monsters spawners that spawn pigs if this setting is disabled.
+#  Other monster spawners (including ones that spawn hostile mobs like Blazes, cave spiders, or silverfish) will not be affected, nor will spawn eggs.
+#  The Ender dragon also spawns naturally regardless of this setting. Warning: This setting when not refined with a datapack will use the default
+#   spawning logic instead of the implemented Betterspawner logic, possibly causing mob spam.
+# 
+#    In order to refine the replacement logic, a datapack must be used.
+allow-vanilla-mobs: false
+# Dimensions that allow players to throw Poké Balls and capture Pokémon outside of battle.
+allow-capture-outside-battle-dimensions:
+- minecraft:overworld
+- minecraft:the_nether
+- minecraft:the_end
+- pixelmon:ultra_space
+# If enabled, battles between players can be initiated by a player throwing a Pokémon's Poké Ball at another player directly (rather than at the other player's Pokémon).
+engage-player-by-poke-ball: true
+# Whether or not aggressive wild Pokémon initiate battles against players.
+enable-wild-aggression: true
+# Whether or not out-of-battle wild Pokémon can be hurt by minecraft attacks such as punching or swords.
+can-pokemon-be-hit: false
+# Determines if non player owned pokemon's movement is disabled or not.
+disabled-non-player-movement: false

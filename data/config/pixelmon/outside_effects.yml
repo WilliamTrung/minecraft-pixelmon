@@ -1,0 +1,9 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not outside effects is enabled or disabled.
+use-outside-effects: true
+# Amount of steps for effects such as Poison to be applied.
+steps-to-apply-effects: 15
+# The maximum amount of damage Poison can do outside of battle to a poisoned Pokémon.
+poison-max-damage: 5

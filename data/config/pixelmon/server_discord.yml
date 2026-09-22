@@ -1,0 +1,11 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Server Discord Information
+server-discord:
+    # If you want your server's Discord invite to appear in the rich presence, put it here.
+    # This can also accept a URL so you can link to a website instead.
+    # It will only appear when the discord-invite setting is not a blank string.
+    discord-invite: ''
+    # The server name to show on the button
+    server-name: My Pixelmon Server!

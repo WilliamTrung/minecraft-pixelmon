@@ -1,0 +1,13 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# If enabled, unlocks the Shiny Charm upon Pokédex completion.
+allow-shiny-charm-from-pokedex: true
+# Enables unlocking the Oval Charm upon completion of a regional Pokédex.
+allow-oval-charm-from-pokedex: true
+# Experience multiplier when an Exp. Charm is equipped.
+exp-charm-multiplier: 1.5
+# Multiplier of the chance that a critical capture will occur when a Catching Charm is equipped.
+catching-charm-multiplier: 1.1
+# Number of rolls for a wild Pokémon to gain a mark when a Mark Charm is equipped.
+mark-charm-rolls: 3

@@ -1,0 +1,18 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not certain Pokémon can drop items upon defeat.
+pokemon-drops-enabled: true
+# If enabled, the drops GUI will display after the player defeats a regular wild Pokémon. The drops GUI will always display when defeating NPC Trainers or boss Pokémon, regardless of this setting.
+use-drop-g-u-i: true
+# Whether or not the "Drop All" button in the Pokémon drops screen will delete the items or drop them on the ground.
+delete-unwanted-drops: false
+# Whether defeating wild pokémon awards the player with the respective pokémon Photo.
+award-tokens: false
+# Number of item drops for each star level in raids.
+den-star-drops:
+- 2
+- 4
+- 6
+- 8
+- 10

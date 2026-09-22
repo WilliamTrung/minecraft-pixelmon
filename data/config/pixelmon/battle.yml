@@ -1,0 +1,136 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# The type of battle AI that the wild Pokemon will use. The options are:
+#  - 'pixelmon:random' - The pokemon will use moves randomly
+#  - 'pixelmon:aggressive' - The pokemon will use the move that will deal the most damage, and avoid status moves
+#  - 'pixelmon:tactical' - The pokemon will know how to use status moves with offensive moves
+#  - 'pixelmon:advanced' - The pokemon will do everything from tactical and also know when to switch
+battle-a-i-wild-type: pixelmon:random
+# The type of battle AI that the boss pokemon will use. The options are:
+#  - 'pixelmon:random' - The pokemon will use moves randomly
+#  - 'pixelmon:aggressive' - The pokemon will use the move that will deal the most damage, and avoid status moves
+#  - 'pixelmon:tactical' - The pokemon will know how to use status moves with offensive moves
+#  - 'pixelmon:advanced' - The pokemon will do everything from tactical and also know when to switch
+battle-a-i-boss-type: pixelmon:aggressive
+# Determines if the player can take multiple photos of a single pokemon
+multiple-photos-of-same-pokemon: true
+# Whether which battle gimmick can be used is determined purely by band chosen
+relaxed-battle-gimmick-rules: true
+# Volume of the music that is played during battles
+battle-music-volume: 1.0
+# Whether or not Pokémon can gain experience when battling other players
+allow-p-v-p-experience: true
+# Whether or not NPC Trainers' Pokémon award experience upon defeat
+allow-trainer-experience: true
+# If enabled, consumable held items used up during player vs. player battles will be restored when the battle ends
+return-held-items: true
+# If enabled, consumable held items used up during player vs. player battles will be restored when the battle ends for PVE battles (e.g., wild Pokémon, NPC Trainers).
+return-held-items-p-v-e: true
+# This setting determines what will occur if a battle is ended without a proper conclusion (e.g., too many errors in battle, player death while in battle).
+# Determining an official winner and loser only matters for certain aspects, such as the /pokestats command,
+# NPC Trainers that give items upon defeat, or Pixelmon sidemods that manipulate battle wins and losses.
+# The Different Modes are as Follows:
+#   - WINNER - A winner will be chosen based on which battler has more pokemon remaining, of which has the most HP remaining on their team
+#   - DRAW - The battle gets declared as a draw
+#   - ABNORMAL - The battle is considered to have ended abnormally
+force-end-battle-result: WINNER
+# Multiplier for experience gained in Pokémon battles
+exp-modifier: 1.0
+# 			Chance for Synchronize to sync nature on battle start. (1 is 100% chance, 0.5 is 50% chance)
+synchronize-chance: 1.0
+# Whether Happy Hour will award PokéDollars when used
+allow-happy-hour: true
+# The multiplier for how many PokéDollars will be awarded by using Happy Hour (2.0 = 2x Multiplier)
+happy-hour-multiplier: 2
+# Whether Pay Day will award extra PokéDollars when used
+allow-pay-day: true
+# The multiplier for how many PokéDollars will be awarded by using Pay Day (5.0 = 5x Multiplier)
+pay-day-multiplier: 5.0
+# If G-Max Gold Rush will award extra PokéDollars when used.
+allow-g-max-gold-rush: true
+# The multiplier for how many PokéDollars will be awarded by using G-Max Gold Rush
+g-max-gold-rush-multiplier: 100.0
+# Whether Amulet Coin will award double PokéDollars when used.
+allow-amulet-coin: true
+# The multiplier for how many PokéDollars will be awarded by using Amulet Coin (2.0 = 2x Multiplier)
+amulet-coin-multiplier: 2
+# The rate (1/x) that Pickup will collect special drops at. 0 disables this.
+pickup-rate: 10
+# Allows chaining catches to get bonus exp, higher shiny and perfect iv rates. If false, all captures use the first threshold listed.
+allow-catch-combo: true
+# Catch Combos count thresholds at which the effects of the combo change. Default values give the combo ranges 0, 1-10, 11-20, 21-30, 31-40, and 41+.
+catch-combo-thresholds:
+- 0
+- 10
+- 20
+- 30
+- 40
+# Catch Combos exp bonuses per threshold.
+catch-combo-exp-bonuses:
+- 1.0
+- 1.100000023841858
+- 1.5
+- 2.0
+- 2.5
+- 3.0
+# Catch Combos shiny modifiers per threshold.
+catch-combo-shiny-modifiers:
+- 1.0
+- 1.0
+- 1.399999976158142
+- 1.7999999523162842
+- 2.200000047683716
+- 2.200000047683716
+# Catch Combos perfect IVs per threshold.
+catch-combo-perfect-i-vs:
+- 0
+- 0
+- 2
+- 3
+- 4
+- 4
+# Whether or not the levels Pokémon found in Pixelmon grass will scale to the level of the player's highest-leveled Pokémon.
+scale-grass-battles: false
+# Whether a battle with a wild Pokémon should start with its weather reflecting the weather of Minecraft's Overworld.
+overworld-weather-affects-wild-battle-weather: true
+# Whether a battle with a NPC Trainer should start with its weather reflecting the weather of Minecraft's Overworld.
+overworld-weather-affects-trainer-battle-weather: true
+# Whether a PvP battle should start with its weather reflecting the weather of Minecraft's Overworld.
+overworld-weather-affects-pv-p-battle-weather: false
+# Whether a raid battle should start with its weather reflecting the weather of Minecraft's Overworld.
+overworld-weather-affects-raid-battle-weather: false
+# Whether Minecraft's weather in the Overworld should change battle weather during the battle,
+# not just at the beginning of the battle.
+# This shouldn't change battle weather that is created by players via an ability or move.
+overworld-weather-can-change-battle-weather-during-battle: true
+# Whether players can escape the battle menu during a PvP match
+# to walk around and do other actions without having to forfeit or win their battle.
+# 
+# This option must also match the battle rule of the battle being entered (defaults to false) (`pixelmon:exitable`)
+players-can-move-during-pv-p-battles: true
+# Whether players can escape the battle menu during a wild Pokémon encounter
+# to walk around and do other actions without having to forfeit or win their battle.
+# 
+# This option must also match the battle rule of the battle being entered (defaults to false) (`pixelmon:exitable`)
+players-can-move-during-wild-battles: true
+# Whether players can escape the battle menu during a battle with an NPC trainer
+# to walk around and do other actions without having to forfeit or win their battle.
+# 
+# This option must also match the battle rule of the battle being entered (defaults to false) (`pixelmon:exitable`)
+players-can-move-during-trainer-battles: true
+# Whether players can escape the battle menu during a Raid battle
+# to walk around and do other actions without having to forfeit or win their battle.
+# 
+# This option must also match the battle rule of the battle being entered (defaults to false) (`pixelmon:exitable`)
+players-can-move-during-raid-battles: false
+# The maximum distance away from the (furthest) of the
+# Pokémon on the battlefield a player may travel before the battle is ended.
+max-distance-players-can-move-away-from-battles: 30
+# The minimum distance away from any of the battle Pokémon
+# the player must be before the warning vignette is shown.
+min-distance-before-warning-vignette: 20
+# This setting determines if the player's party will store the log for the last battle they were in.
+# This is incredibly useful for testing battles where you might forget to log the battle before it ends.
+# It is set to false by default as for servers this will use incredibly large amounts of RAM.
+store-last-battle: false

@@ -1,0 +1,80 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# The minimum number of blocks away from the nearest player a Pokémon can be when despawned.
+despawn-radius: 80
+# Modifies the rarity of shiny Pokémon.
+shiny-rate: 4096.0
+# The amount the shiny charm will multiply the shiny chance
+shiny-charm-rate-multiplier: 3.0
+# Modifies the rarity of Pokémon with hidden abilities.
+hidden-ability-rate: 150.0
+# If enabled, wild Pokémon and trainers will spawn closer to the level range of the player.
+# For example, a party where the highest level is 5 will never see Pokémon or trainers above level 15 unless through fishing.
+spawn-levels-closer-to-player-levels: true
+# If enabled, the y-value of the position a Pokémon spawns at will affect the Pokémon level proportionately, such that lower y-values will have higher level Pokémon.
+spawn-levels-increase-in-caves: true
+# If enabled, the Ultra Space Pokémon will be set at a higher level than the maximum level in your party MaxPartyLevel * ultra-space-level-multiplier
+spawn-levels-increase-in-ultra-space: true
+# The max level multiplier when you're at a lower level in caves
+cave-max-multiplier: 4
+# Chance for a wild Pokémon to turn into a Ditto on capture.
+transform-to-ditto-on-catch: 0.001
+# Pokémon which can transform to Ditto upon capture
+can-transform-to-ditto-on-catch:
+- Pidgey
+- Rattata
+- Gastly
+- Zubat
+- Mankey
+- Yanma
+- Hoothoot
+- Sentret
+- Zigzagoon
+- Gulpin
+- Whismur
+- Taillow
+- Remoraid
+- Starly
+# Chance of a wild Pokémon spawning with the Gigantamax Factor (1/rate). 0 disables Gigantamax Factor spawns.
+gigantamax-factor-rate: 512.0
+# If set to true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
+use-recent-level-moves: false
+# Whether or not wild Pokémon will despawn if the player flees from them or loses against them.
+despawn-on-flee-or-loss: false
+# How long the effects of the Black/White Flute last for in seconds once used.
+lure-flute-duration: 180
+# By how many levels the Black/White Flute can affect spawns by.
+lure-flute-level-modifier: 10
+# Whether or not Pokémon from a specific generation can spawn. All generations enabled by default.
+blocked-generations: []
+# The rate at which the player tracking spawner will refresh the spawns around the player.
+# 
+# If you're on a server you want this number to be higher. This will mean less spawns per player but is important
+# as it will impact your server's performance if too low.
+# 
+# For single player the performance is irrelevant as you're just the one player.
+player-tracking-spawner-spawn-collection-rate: 2
+auto-tag-specs:
+    gen1: generation:1
+    gen2: generation:2
+    gen3: generation:3
+    gen4: generation:4
+    gen5: generation:5
+    nonlegendary: islegendary:false
+    gen6: generation:6
+    legendary: islegendary:true
+    gen7: generation:7
+    gen8: generation:8
+    shiny: shiny
+interval-seconds:
+    wormhole_ultra_space: 400
+    wormhole_overworld: 1200
+# Indicates which dimensions that all Pokémon will be aggressive.
+always-aggressive-dimensions:
+- pixelmon:ultra_space
+# Indicates which dimensions a Horde Battle may occur in.
+horde-battle-dimensions:
+- pixelmon:ultra_space
+# Indicates which dimensions that Pokémon spawning are disabled in.
+spawning-disabled-dimensions: []

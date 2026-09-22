@@ -1,0 +1,13 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# The rate of boss Pokémon in the wild (1/x) not including mega bosses.
+boss-rate: 256.0
+# Modifies the rarity of bosses in the Ultra Space Dimension (bossRate * ultraSpaceBossModifier).
+ultra-space-boss-modifier: 0.5
+# Whether bosses that spawn must Mega Evolve if they can.
+bosses-always-mega-if-possible: true
+# How often (on average) a boss Pokémon will attempt to spawn.
+boss-spawn-ticks: 10000
+# Chance that a Mega Boss spawn attempt will succeed. 1 = 100%
+boss-spawn-chance: 0.30000001192092896

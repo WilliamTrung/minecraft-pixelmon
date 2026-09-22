@@ -1,0 +1,71 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# A number that is multiplied to the default render distance (64) to produce a final render distance.
+render-distance-weight: 2.0
+# How far away levels and names of Pokémon can be seen when outside of battle. This setting is client-side.
+#    - 1: default (cloest)
+#    - 2: farther
+#    - 3: far (furthest)
+name-plate-range: 1
+# Whether or not wild Pokémon should show their level above their head.
+render-wild-levels: true
+# Whether to show wild Pokémon names on their nameplates.
+show-wild-names: true
+# If this option is enabled, Pokémon will be 30% larger than if the option was disabled.
+scale-models-up: true
+# Whether or not a Pokémon's attack target (F key by default) is shown on the screen.
+show-current-attack-target: true
+# Whether or not HP bars will be displayed above Pokémon.
+draw-health-bars: false
+# If true, attack effects are only displayed to players participating in or spectating a battle.
+only-show-attack-effects-to-battlers: false
+# If true, show percentage of opponent HP remaining
+advanced-battle-information: true
+# The range (in blocks) at which battle effects should be displayed to players if they are not in the battle.
+range-to-display-attack-animations: 40
+# Emissive textures add an additional effect that makes some Pokémon glow, but come with a significant performance penalty.
+emissive-textures: true
+# The distance in blocks to stop rendering emissive textures at.
+emissive-textures-distance: 32
+# The override render mode for Poké Balls in the player's hand. The options are:
+# 
+# - 'auto' - Uses the setting from 'global-render-type'.
+# - 'smooth' - Renders Poké Balls in smooth 3D.
+# - 'blocky' - Renders Poké Balls in blocky 3D
+# - 'sprite' - Renders Poké Balls as flat sprites.
+override-poke-balls3-d-in-hand-mode: auto
+# If set to true, all Pokémon will appear to every player in their wireframe mode, which renders their model as a connection of lines between their vertices.
+global-wire-frame: false
+# If set to true, all Pokémon will render their bones, and the names of the bones.
+show-bones: false
+# If set to false, Pokémon will not use animations to walk, fly, swim, or sway while idle.
+global-animation-toggle: true
+# If set to true, all Pokémon will appear to every player in their vertex mode, which renders only the vertices of their model.
+global-vertex-toggle: false
+# If set to true, all Pokémon will glow at max brightness, making it them easy to spot at night or underwater.
+global-emissive-toggle: false
+# The range (in blocks) in which a player can choose to spectate a battle.
+spectator-range-blocks: 10.0
+# If set to true, the player, while in battle, will be able to see Pokemon entities that are not participating in the battle.
+should-render-pokemon-outside-battle: false
+# If set to true, Minecraft Toasts will appear in order to give the player tutorial advice.
+should-send-toasts: true
+# If set to false, recurring potion particles that Pixelmon adds will no longer display. This is primarily for turning off the particles of the Avoidance effect.
+potion-particles-visible: true
+# If set to false, this will disable the beacon-style beams that appear when a player drops an item
+# and the pokeball shadow that appears underneath the item.
+dropped-item-beams-enabled: true
+# If set to false, this will remove the colors from the text on the HP widgets,
+# the text on the Dynamax Level slider, the text in the edit boxes for the Pokémon's moves,
+# the text for the stats affected by the Pokémon's nature, and the PokéPaste text on the PokéPaste tab.
+# This can also be enabled/disabled temporarily in-game by pressing the F1 key.
+pokemon-editor-extra-color-mode-enabled: true
+# The render type for the global render type. This can be set to either 'smooth', 'blocky', or 'sprite'.
+# This will not override the individual render types of Pokémon. If a Pokémon has a render type set, it will use that instead.
+# You can toggle this setting in-game pressing the F3 and R keys at the same time.
+global-render-type: smooth
+# The generations of TMs that will be displayed in the Pokedex TM section.
+# This is by default set to generation 9 only as there are a lot of TMs and it is not practical to display all of them.
+pokedex-t-m-generations:
+- 9

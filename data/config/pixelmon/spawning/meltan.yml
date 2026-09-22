@@ -1,0 +1,17 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Percentage chance for a Meltan to transform into Ditto on capture. 1 = 100%
+meltan-transform-chance: 0.75
+# Chance for a Meltan to spawn with each opening. 1/X
+meltan-box-spawn-rate: 300
+# Maximum block distance away from the box that a Meltan could spawn.
+meltan-box-spawn-radius: 15
+# Amount of Netherite Scraps to initially open the Mystery Box.
+meltan-box-initial-scraps-count: 4
+# Multiplier for the amount of scraps needed per box opening after the first.
+meltan-box-scraps-multiplier: 1.8
+# Amount of time, in milliseconds, that it takes for the Mystery Box to open.
+meltan-box-open-duration-millis: 100000
+# Amount of time, in milliseconds, that it takes before the Mystery Box can be opened again.
+meltan-box-cooldown-duration-millis: 3000000

@@ -1,0 +1,16 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Modifies the rarity of shiny Pokémon in the Ultra Space Dimension (shinyRate * ultraSpaceShinyModifier).
+ultra-space-shiny-rate-multiplier: 0.5
+# Modifies the rarity of hidden abilities in the Ultra Space Dimension (hiddenAbilitySpawnRate * ultraSpaceHiddenAbilityModifier).
+ultra-space-hidden-ability-multiplier: 0.5
+# Modifies the rarity of horde battles in the Ultra Space.
+ultra-space-horde-spawn-rate: 0.4000000059604645
+# If enabled, the Ultra Space Pokémon will be set at a higher level than the maximum level in your party MaxPartyLevel * ultra-space-level-multiplier
+spawn-levels-increase-in-ultra-space: true
+# The maximum level multiplier when you're in Ultra Space.
+ultra-space-level-multiplier: 2.0
+# Modifies the rarity of the Gigantamax Factor in the Ultra Space Dimension (gigantamaxFactorSpawnRate * ultraSpaceGigantamaxFactorModifier).
+#  -1 disables Gigantamax Factor spawns in Ultra Space.
+ultra-space-gigantamax-factor-modifier: -1.0

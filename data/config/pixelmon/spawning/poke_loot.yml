@@ -1,0 +1,30 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not visible PokéLoot chests spawn naturally.
+spawn-normal: true
+# Whether or not invisible PokéLoot chests spawn naturally.
+spawn-hidden: true
+# The frequency at which PokéLoot chests spawn.
+# Below are the values for the legacy modes:
+#     - MINIMAL (min-distance: 508, min-chunk: 64, hidden-frequency: 4)
+#     - NORMAL (min-distance: 254, min-chunk: 32, hidden-frequency: 2)
+#     - MORE (min-distance: 143, min-chunk: 18, hidden-frequency: 3)
+#     - EXTREME (min-distance: 76, min-chunk: 9, hidden-frequency: 3)
+loot-spawn-rate:
+    # The minimum distance that a PokéLoot chest can spawn from the last spawned chest.
+    min-distance: 143
+    # The minimum number of chunks to iterate through before spawning a PokéLoot chest.
+    min-chunk: 8
+    # The number of PokéLoot chests to spawn before spawning a hidden chest.
+    hidden-frequency: 2
+# The default setting for how PokéLoot chests act once looted. The Different Modes are as Follows:
+#     - FCFS
+#     - PL
+#     - PU
+#     - TIMED
+spawn-mode: FCFS
+# How often players can loot PokéLoot chests that are set to have timed loot. This value is in hours.
+loot-time: 24
+# If the locations of spawned PokéLoot chests should be logged to the console for debugging purposes.
+log-spawning: false

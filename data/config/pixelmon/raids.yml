@@ -1,0 +1,58 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Shiny rates per raid star level
+raid-shiny-chances:
+- 4096.0
+- 4096.0
+- 2048.0
+- 1024.0
+- 1024.0
+# HA rates per raid star level.
+raid-h-a-chances:
+- 150.0
+- 125.0
+- 100.0
+- 75.0
+- 50.0
+# Gigantamax Factor rates per raid star level.
+raid-gigantamax-factor-chances:
+- 512.0
+- 512.0
+- 512.0
+- 256.0
+- 128.0
+# Time of day (in ticks) when dens attempt to respawn their boss.
+den-respawn-time: 100
+# Chance of a den respawning their boss when the den respawn time is hit.
+den-respawn-chance: 0.75
+# Weights of each star level appearing in raids.
+den-star-weights:
+- 19
+- 12
+- 9
+- 3
+- 1
+# Whether raids can have legendaries.
+raid-have-legendaries: true
+# Whether raids can have Ultra Beasts.
+raid-have-ultra-beasts: true
+# Star levels at which Master Balls/Park Balls cannot be used.
+raid-master-ball-block:
+- false
+- false
+- false
+- false
+- false
+# Star levels at which only the leader of the raid has a catch attempt.
+raid-only-leader-can-catch:
+- false
+- false
+- false
+- false
+- false
+# Species which can never appear in raids.
+raid-blacklist:
+- MissingNo
+# Whether or not dens can be broken with repeat pickaxe hits.
+raid-dens-breakable: true

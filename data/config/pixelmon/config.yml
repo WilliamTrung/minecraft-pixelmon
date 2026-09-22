@@ -1,0 +1,51 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not the player can nickname owned Pokémon. On a server, this will prevent nicknames from being visible to other players.
+allow-pokemon-nicknames: true
+# Whether or not Apricorns can be planted by players. This does not remove existing Apricorn trees or prevent natural Apricorn tree generation.
+allow-planting: true
+# Whether or not cloning machines can be crafted and used. Disabling this setting prevents Mewtwo from being legitimately obtainable.
+cloning-machine-enabled: true
+# Sets The number of times a Azelf, Mesprit and Uxie can enchant a ruby.
+lake-trio-max-enchants: 3
+# Whether or not Minecraft time will sync to real time (as defined by the machine's system time).
+use-system-time-for-world-time: false
+# How often Minecraft time will sync to real time (in seconds) if real time syncing is enabled.
+time-update-interval: 30
+# The maximum level that a Pokémon can be.
+max-level: 100
+# Whether or not players will automatically have a Mega ring.
+always-have-mega-ring: false
+# Whether or not players will automatically have a Dynamax band.
+always-have-dynamax-band: false
+# The chance of obtaining a Sir Doofus III from catching a Bidoof with a Luxury Ball. (1/x chance, -1 to disable)
+chance-to-get-special-bidoof: 30
+# Determines the catch formula used in the official game of that generation.
+fallback-capture-method: gen8
+# Multiplier of durability loss for each use of the hammer.
+hammer-durability-loss-multiplier: 3
+# Which dimensions use Gen 7 features (eg. Mega Bosses). Any other dimension will use Gen 8 (eg. Max Raids).
+old-gen-dimensions: []
+# Which dimensions use both Gen 7 and Gen 8 features. Overrides other options that would affect this otherwise.
+both-gen-dimensions:
+- pixelmon:ultra_space
+- pixelmon:drowned
+- minecraft:overworld
+- minecraft:the_nether
+- minecraft:the_end
+# Height of Dynamax and Gigantamax in blocks.
+dynamax-size: 15.0
+# Whether berry juices can be crafted in the infuser or not.
+berry-juice-crafting: true
+# If enabled, Poké Gifts will remain after players claim them, but each Poké Gift can only be claimed once per player. If disabled, claiming a Poké Gift will cause it to disappear.
+poke-gift-reusable: false
+# The maximum distance that two elevators can link together at.
+elevator-search-range: 10
+# Whether or not players will pick their starter Pokémon immediately upon entering a world.
+starter-on-join: true
+# If the discord rich presence should be enabled
+use-discord-rich-presence: true
+# The default unlocked sections of the Pokédex tab for a player who has not caught the Pokemon.
+default-unlocked-sections:
+- SPAWNING

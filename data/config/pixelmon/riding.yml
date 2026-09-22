@@ -1,0 +1,15 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Allow players to ride Pokémon. If false, no Pokémon can be ridden.
+allow-riding: true
+# A multiplier for the mounting speed of Pokémon. Can be between 0 and 1, where 1 is the default mounting speed.
+riding-speed-multiplier: 1.0
+# If enabled, this option causes a mounted Pokémon to be steered by moving the camera, matching the directional controls on foot. If disabled, mounted Pokémon are steered using the keybinds for moving left and right.
+enable-point-to-steer: true
+# If enabled, allows riding Pokémon mounts that do not have the ability to fly or surf.
+land-mount: true
+# Whether or not Fly or Surf must be known by a water or flying mounted Pokémon in order to mount it. Land mounts are unaffected by this setting.
+require-h-m: false
+# Sets the flying speed limit for a mounted Pokémon in the new flying system.
+flying-speed-limit: 4.0

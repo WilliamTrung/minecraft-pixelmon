@@ -1,0 +1,13 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# The number of boxes a player has access to in the PC
+computer-boxes: 30
+# Whether or not Pixelmon entities (such as naturally spawning Pokémon and NPC Trainers) are saved with the world. If enabled, the size of the world save file and the time needed to save the world increase.
+write-entities-to-world: false
+# Whether or not data about players' Pokémon is saved when the world is saved. If this option is disabled, player Pokémon will need to be saved manually.
+data-save-on-world-save: true
+# Activates off-main thread saving of party and computer data
+use-async-saving: true
+# The interval in seconds that the async saver will save all queued data to disk.
+async-interval: 60

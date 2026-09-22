@@ -1,0 +1,24 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# How often (in ticks) on average a Legendary Pokémon attempts to spawn. The actual time interval ranges from 60% to 140% of the specified value in this setting. The chance of the spawn attempt succeeding is defined by the legendarySpawnChance setting.
+legendary-spawn-ticks: 25000
+# The chance of a Legendary Pokémon spawn attempt succeeding (0-1) if a viable location has been found for one to spawn. The frequency of this spawn attempt is defined by the legendarySpawnTicks setting.
+legendary-spawn-chance: 0.30000001192092896
+# A multiplier that speeds up legendary and mega boss spawning based on player count. ticks = spawnTicks / (1 + (number of players - 1) * spawnTicksPlayerMultiplier)
+spawn-ticks-player-multiplier: 0.009999999776482582
+# Whether or not Legendary Pokémon will spawn naturally. This only affects Pokémon that use the Legendary spawn rate.
+allow-legendary-spawn: true
+# Number of ticks until legendaries will despawn.
+legendary-despawn-ticks: 6000
+# Whether or not a message will display when a Legendary Pokémon spawns.
+# The message also displays which biome the Pokémon spawned in.
+display-legendary-global-message: true
+# Displays server-wide announcement 'A Legendary has spawned in a Max Raid Den in a <name> biome' when a Legendary spawns in one.
+do-legendary-raid-event: true
+# Chance that a bell, at dawn, will start to ring. 1 = 100%.
+bell-success-chance: 0.01
+# Range in blocks that Clear/Tidal Bells will seek out other bells.
+bell-inclusion-range: 10
+# Allow Zygarde Cells to spawn randomly in the world.
+spawn-zygarde-cells: true

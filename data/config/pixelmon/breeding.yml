@@ -1,0 +1,21 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not the Day Care can be used.
+allow-breeding: true
+# Whether or not two Ditto can breed together to produce Eggs with random Pokémon inside them.
+allow-ditto-ditto-breeding: false
+# Whether or not Eggs made from two Ditto breeding together have a chance of hatching Legendary Pokémon.
+allow-random-breeding-eggs-to-be-legendary: false
+# Whether or not Eggs made from two Ditto breeding together have a chance of hatching Mythic Pokémon.
+allow-random-breeding-eggs-to-be-mythic: false
+# Whether or not Eggs made from two Ditto breeding together have a chance of hatching an Ultra Beast.
+allow-random-breeding-eggs-to-be-ultrabeast: false
+# Whether the hidden ability slot of a mother can be inherited by a child with a different regional form.
+allow-cross-region-hidden-ability-inheritance: true
+# Breeding rate modifier that is applied if the Oval Charm is equipped.
+oval-charm-multiplier: 0.5
+# Egg cycles are used to determine how many steps it takes for Eggs to hatch. The lower this value, the fewer steps it takes for Eggs to hatch.
+steps-per-egg-cycle: 255
+# The amount of eggs a Player will be able to breed for at the same time. This option only impacts the creation of a new world.
+default-day-care-amount: 3

@@ -1,0 +1,12 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not the player will always spawn in a village when joining the world for the first time
+always-spawn-in-village: true
+# Whether Legendary shrines, such as the Legendary Bird or Timespace Trio shrines, can be used multiple times. The Different Modes are as Follows:
+#   - Once - A shrine can only be used once globally
+#   - OncePerPlayer - a shrine may only be used once per player
+#   - OncePerMCDAy a shrine may be used once per Minecraft day (20 minutes)
+#   - OncePerDay - a shrine may only be used once per 24 hours
+#   - Unlimited - a shrine may be used indefinitely
+shrine-encounter-mode: Once

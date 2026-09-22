@@ -1,0 +1,221 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# The colour that will appear when the player uses ore sense
+ore-colors:
+    '44':
+        block-id: pixelmon:deepslate_sun_stone_ore
+        color: 11295537
+        pattern: 5
+    '45':
+        block-id: pixelmon:deepslate_moon_stone_ore
+        color: 4416361
+        pattern: 14
+    '46':
+        block-id: pixelmon:deepslate_dawn_stone_ore
+        color: 0
+        pattern: 7
+    '47':
+        block-id: pixelmon:deepslate_dusk_stone_ore
+        color: 0
+        pattern: 7
+    '48':
+        block-id: pixelmon:deepslate_water_stone_ore
+        color: 4609401
+        pattern: 8
+    '49':
+        block-id: pixelmon:deepslate_thunder_stone_ore
+        color: 12173056
+        pattern: 9
+    '50':
+        block-id: pixelmon:deepslate_leaf_stone_ore
+        color: 6191437
+        pattern: 10
+    '51':
+        block-id: pixelmon:deepslate_fire_stone_ore
+        color: 10048803
+        pattern: 11
+    '52':
+        block-id: pixelmon:deepslate_shiny_stone_ore
+        color: 12435323
+        pattern: 5
+    '53':
+        block-id: pixelmon:deepslate_ice_stone_ore
+        color: 9928091
+        pattern: 15
+    '10':
+        block-id: minecraft:deepslate_coal_ore
+        color: 14860458
+        pattern: 22
+    '54':
+        block-id: pixelmon:deepslate_fossil
+        color: 4472114
+        pattern: 6
+    '11':
+        block-id: minecraft:deepslate_iron_ore
+        color: 14860458
+        pattern: 18
+    '12':
+        block-id: minecraft:deepslate_copper_ore
+        color: 16746303
+        pattern: 24
+    '13':
+        block-id: minecraft:deepslate_gold_ore
+        color: 16576075
+        pattern: 21
+    '14':
+        block-id: minecraft:deepslate_redstone_ore
+        color: 16711680
+        pattern: 20
+    '15':
+        block-id: minecraft:deepslate_emerald_ore
+        color: 1564002
+        pattern: 19
+    '16':
+        block-id: minecraft:deepslate_diamond_ore
+        color: 6682083
+        pattern: 0
+    '17':
+        block-id: minecraft:deepslate_lapis_ore
+        color: 1594813
+        pattern: 2
+    '19':
+        block-id: pixelmon:ruby_ore
+        color: 14490675
+        pattern: 1
+    '0':
+        block-id: minecraft:coal_ore
+        color: 14860458
+        pattern: 22
+    '1':
+        block-id: minecraft:iron_ore
+        color: 14860458
+        pattern: 18
+    '2':
+        block-id: minecraft:copper_ore
+        color: 16746303
+        pattern: 24
+    '3':
+        block-id: minecraft:gold_ore
+        color: 16576075
+        pattern: 21
+    '4':
+        block-id: minecraft:redstone_ore
+        color: 16711680
+        pattern: 20
+    '5':
+        block-id: minecraft:emerald_ore
+        color: 1564002
+        pattern: 19
+    '6':
+        block-id: minecraft:diamond_ore
+        color: 6682083
+        pattern: 0
+    '7':
+        block-id: minecraft:lapis_ore
+        color: 1594813
+        pattern: 2
+    '8':
+        block-id: minecraft:nether_gold_ore
+        color: 16576075
+        pattern: 23
+    '9':
+        block-id: minecraft:nether_quartz_ore
+        color: 15394270
+        pattern: 3
+    '20':
+        block-id: pixelmon:sapphire_ore
+        color: 4879335
+        pattern: 1
+    '21':
+        block-id: pixelmon:crystal_ore
+        color: 11529966
+        pattern: 1
+    '22':
+        block-id: pixelmon:bauxite_ore
+        color: 13743492
+        pattern: 0
+    '23':
+        block-id: pixelmon:silver_ore
+        color: 14869218
+        pattern: 16
+    '24':
+        block-id: pixelmon:platinum_ore
+        color: 9351922
+        pattern: 17
+    '25':
+        block-id: pixelmon:silicon_ore
+        color: 14868462
+        pattern: 0
+    '26':
+        block-id: pixelmon:fossil
+        color: 4472114
+        pattern: 6
+    '27':
+        block-id: pixelmon:sun_stone_ore
+        color: 15038274
+        pattern: 5
+    '28':
+        block-id: pixelmon:moon_stone_ore
+        color: 5932427
+        pattern: 14
+    '29':
+        block-id: pixelmon:dawn_stone_ore
+        color: 0
+        pattern: 7
+    '30':
+        block-id: pixelmon:dusk_stone_ore
+        color: 0
+        pattern: 7
+    '31':
+        block-id: pixelmon:water_stone_ore
+        color: 6123935
+        pattern: 8
+    '32':
+        block-id: pixelmon:thunder_stone_ore
+        color: 15793921
+        pattern: 9
+    '33':
+        block-id: pixelmon:leaf_stone_ore
+        color: 8298855
+        pattern: 10
+    '34':
+        block-id: pixelmon:fire_stone_ore
+        color: 13398322
+        pattern: 11
+    '35':
+        block-id: pixelmon:shiny_stone_ore
+        color: 16449443
+        pattern: 5
+    '36':
+        block-id: pixelmon:ice_stone_ore
+        color: 13217999
+        pattern: 15
+    '37':
+        block-id: pixelmon:deepslate_bauxite_ore
+        color: 10389853
+        pattern: 0
+    '38':
+        block-id: pixelmon:deepslate_silver_ore
+        color: 11053224
+        pattern: 16
+    '39':
+        block-id: pixelmon:deepslate_platinum_ore
+        color: 7046836
+        pattern: 17
+    '40':
+        block-id: pixelmon:deepslate_silicon_ore
+        color: 11052466
+        pattern: 0
+    '41':
+        block-id: pixelmon:deepslate_ruby_ore
+        color: 10753318
+        pattern: 1
+    '42':
+        block-id: pixelmon:deepslate_sapphire_ore
+        color: 3626925
+        pattern: 1
+    '43':
+        block-id: pixelmon:deepslate_crystal_ore
+        color: 8630962
+        pattern: 1

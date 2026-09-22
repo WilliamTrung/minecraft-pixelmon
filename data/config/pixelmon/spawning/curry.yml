@@ -1,0 +1,27 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# The chance for a pokemon to join your team after cooking curry of a particular class. 1/X chance.
+curry-encounter-rates:
+    MILCERY: 7.0
+    KOFFING: 100.0
+    WOBBUFFET: 20.0
+    COPPERAJAH: 5.0
+    CHARIZARD: 4.0
+# The cutoffs for ratings based on the minigame. The theoretical max score is 173, though in practice 150 is the highest most players can get.
+curry-rating-cutoffs:
+- 40
+- 65
+- 100
+- 135
+# Determines whether a pokemon spawned by cooking curry will start a battle or just join the party.
+curry-battle: false
+# Determines whether a pokemon spawned by cooking curry will have its nature match the flavor.
+curry-nature-sync: true
+# The pokeball types that curry spawns can use to join the party. This list is ordered, meaning that pokemon will prefer types listed first.
+curry-ball-ordered-types:
+- poke_ball
+- great_ball
+- ultra_ball
+# Whether high class curry provides an IV boost to curry spawns.
+iv-boost: true

@@ -1,0 +1,9 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# If this option is enabled, any Pixelmon-related errors on a server will be printed to the server log in detail. If disabled, errors will be much shorter and less detailed.
+print-errors: true
+# Whether to use the fix for clumping Pokémon around the edges of the world. If you are on Sponge, or don't know what it is, keep it off.
+use-update-entity-with-optional-force-fix: false
+# Verbose Logging - Keep this off unless you are diagnosing issues.
+verbose: false

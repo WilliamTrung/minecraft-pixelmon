@@ -1,0 +1,15 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not beds will fully heal Pokémon when slept in.
+beds-heal-pokemon: true
+# Whether to passively heal party Pokémon over time or not.
+use-passive-healer: true
+# Chance to passively revive a knocked out party Pokémon with each step.
+chance-to-revive-passively: 0.0010000000474974513
+# Chance to passively heal status effects from a party Pokémon with each step.
+chance-to-heal-status-passively: 0.004999999888241291
+# Number of steps after which to heal 1 HP from a party Pokémon.
+steps-to-heal-health-passively: 75
+# Percentage of maximum health that the passive heal can go up to.
+passive-healing-max-health-percentage: 0.25

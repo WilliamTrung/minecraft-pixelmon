@@ -1,0 +1,17 @@
+services:
+  pixelmon:
+    build: .
+    image: pixelmon-neoforge-server:1.21.1-9.3.16
+    container_name: pixelmon-server
+    restart: unless-stopped
+    environment:
+      EULA: "true"
+      MEMORY: "6G"
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data
+      - ./neoforge-21.1.200-installer.jar:/opt/install/neoforge-installer.jar:ro
+      - ./Pixelmon-1.21.1-9.3.16-server.jar:/opt/install/pixelmon-server.jar:ro
+    stdin_open: true
+    tty: true

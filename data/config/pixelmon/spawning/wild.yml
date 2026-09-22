@@ -1,0 +1,32 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# The maximum number of entities (NPC or Pokémon) that can spawn per player. Lower for better performance.
+entities-per-player: 30
+# The maximum number of spawns in a single spawn cycle for a single player.
+# Lower for slower spawning and better performance.
+# Values above 5 are very unlikely to make a noticeable difference.
+spawns-per-pass: 5
+# The number of spawn passes made per minute. Decrease for better performance.
+spawn-frequency: 60.0
+# The minimum number of blocks between a spawned entity and an existing living entity.
+minimum-distance-between-spawns: 4.0
+# The minimum distance from the player that entities may spawn. The lower this is, the closer entities will spawn to players.
+minimum-distance-from-centre: 18
+# The maximum distance from the player that entities may spawn.
+maximum-distance-from-centre: 120
+# How many ticks 'lead' the player tracking spawner will give players based on their motion. This tries to spawn at locations the player is about to be.
+horizontal-track-factor: 80.0
+# How many ticks 'lead' the player tracking spawner will give players based on their vertical motion. Typically best as zero due to the interference jumping can cause.
+vertical-track-factor: 0.0
+# The horizontal radius of the areas randomly selected near the player to do spawning in. Lower for better performance but less reliable spawning.
+horizontal-slice-radius: 5
+# The vertical radius of the areas randomly selected near the player to do spawning in.
+#  Lower for better performance but less reliable spawning. Making this larger than the horizontal slice radius is a good idea.
+vertical-slice-radius: 25
+# The maximum number of Pokémon that can be naturally spawned in at once. This does not count fishing, Move Skills, commands, or legendary spawning
+maximum-spawned-pokemon: 3000
+# The maximum number of Flying Pokémon that can be naturally spawned in at once (soft limit). This does not count fishing, external moves, commands, or legendary spawning.
+maximum-spawned-flying-pokemon: 500
+# The maximum number of Flying Pokémon that can spawn per player. Lower for better performance.
+maximum-spawned-flying-pokemon-per-player: 15

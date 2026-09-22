@@ -1,0 +1,85 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# At what level bottlecaps can be used on a Pokemon.
+bottle-cap-level: 50
+# Determines if the player can take multiple photos of a single Pokemon
+multiple-photos-of-same-pokemon: true
+# How many ticks it will take for a lure to expire on average.
+average-lure-expiry-ticks: 17920
+# Whether or not players have to be ops to edit Pixelmon spawners. If this option is disabled, any player in Creative mode can edit spawners.
+spawners-op-only: true
+# If set to true, must be opped to use the NPC Editor. If false, must be in Creative mode.
+npc-editor-op-only: true
+# Whether or not players can use Pokémon editors. When disabled client-side, this will prevent other players from using Pokémon editors on the player with the setting disabled.
+allow-pokemon-editors: true
+# Whether or not players can place statues using a Chisel.
+allow-chisels: true
+# The default amount of time in milliseconds that a Mega Stone will give to a Pokemon for
+# outside of battle Mega Evolution.
+default-mega-stone-time: 5400000
+# The multiplier of a Mega Stone's time to use as its cooldown.
+mega-stone-cooldown-multiplier: 3.0
+# The luring strength of each stone used in evolution stone armor.
+evo-stone-armor-lure-strength: 1.0468000173568726
+evo-stone-tool-effects:
+    Dawnstone:
+        effect: minecraft:haste
+        armor-level: 1
+        tool-level: 2
+        tool-duration: 6000
+        tool-damage: 5
+    Sunstone:
+        effect: minecraft:jump_boost
+        armor-level: 2
+        tool-level: 3
+        tool-duration: 6000
+        tool-damage: 5
+    Duskstone:
+        effect: minecraft:invisibility
+        armor-level: 1
+        tool-level: 1
+        tool-duration: 6000
+        tool-damage: 5
+    Firestone:
+        effect: minecraft:fire_resistance
+        armor-level: 1
+        tool-level: 1
+        tool-duration: 6000
+        tool-damage: 5
+    Thunderstone:
+        effect: minecraft:speed
+        armor-level: 1
+        tool-level: 2
+        tool-duration: 6000
+        tool-damage: 5
+    Icestone:
+        effect: minecraft:resistance
+        armor-level: 1
+        tool-level: 2
+        tool-duration: 6000
+        tool-damage: 5
+    Shinystone:
+        effect: minecraft:health_boost
+        armor-level: 1
+        tool-level: 2
+        tool-duration: 6000
+        tool-damage: 5
+    Moonstone:
+        effect: minecraft:night_vision
+        armor-level: 1
+        tool-level: 1
+        tool-duration: 6000
+        tool-damage: 5
+    Waterstone:
+        effect: minecraft:water_breathing
+        armor-level: 1
+        tool-level: 1
+        tool-duration: 6000
+        tool-damage: 5
+    Leafstone:
+        effect: minecraft:slow_falling
+        armor-level: 1
+        tool-level: 1
+        tool-duration: 6000
+        tool-damage: 5

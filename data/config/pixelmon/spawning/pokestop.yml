@@ -1,0 +1,7 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not PokéStops spawn naturally.
+enabled: true
+# How often players can loot single PokéStop. This value is in hours.
+loot-time: 24

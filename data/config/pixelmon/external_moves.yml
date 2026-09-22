@@ -1,0 +1,15 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not players are able to use Move Skills.
+allow-external-moves: true
+# Whether or not players are allowed to use the following Move Skills:
+#   - cut
+#   - dig
+#   - explode
+#   - light fire
+#   - rock smash
+#   - thunder bolt
+allow-destructive-external-moves: true
+# Higher values for better chances of obtaining item with Forage.
+forage-chance: 0.949999988079071

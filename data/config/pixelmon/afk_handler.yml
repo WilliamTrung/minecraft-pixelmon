@@ -1,0 +1,9 @@
+# © PixelmonMod 2012-2025
+# For assistance visit https://pixelmonmod.com/wiki/Config
+
+# Whether or not the AFK handler is enabled.
+enabled: false
+# The amount of time (in seconds) that a player can be unresponsive in battle before the AFK handler takes control.
+afk-activate-seconds: 90
+# The amount of time that the AFK handler takes to make a move.
+afk-timer-turn-seconds: 15

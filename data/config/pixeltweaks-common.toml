@@ -1,0 +1,16 @@
+#If Pixelmon Healers should drop themselves when broken. Default: true
+healersDropThemselves = true
+#The level a pokemon can begin to be hypertrained. Default: 50 (PixelTweaks), 100 (Pixelmon)
+# Default: 50
+# Range: 1 ~ 100
+hypertrainLevel = 50
+#If apricorns should randomly drop when they are ripe. Default: true
+randomlyDropRipeApricorns = true
+#If fox pokemon should become immune to vanilla berry bushes & heal when right clicked with berries. Default: true
+foxesLoveBerries = true
+#If pokemon should be prevented from trampling crops. Default: true
+antiTrampleCrops = true
+#If Backpack integration should be enabled (supports 4 backpack mods). Default: true
+backpacksIntegration = true
+#If Pokemon chat replacement should be enabled. Allows players to use [Pokemon] and [Party] to show their pokemon in chat. Default: true
+enablePokemonChat = true
